@@ -79,3 +79,40 @@ nav ul li a{
     justify-content: center;
     margin-left: 33%;
 }
+
+.secciones{
+padding: 100px;
+}
+
+.secciones h2{
+    color:grey;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.divs{
+    display: flex;
+    flex-direction: row;
+}
+
+.divs a{
+    text-decoration: none;
+    color: white;
+    border: red solid 35px;
+}
+
+.divs a img{
+    width: 250px;
+    height: 250px;
+}
+
+.divs a p{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding-top: 10px;
+    justify-content: center;    
+}
+
