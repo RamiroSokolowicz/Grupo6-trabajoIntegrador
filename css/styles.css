@@ -154,3 +154,43 @@ padding: 100px;
     padding: 20px 0px;
     max-width: 650px;
 }
+
+.mainGenero{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionGenero{
+    text-align: center;
+    background-color: red;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.seccionGenero h2{
+    color: grey;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.divGenero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divGenero ul{
+    list-style: none;   
+}
+
+.divGenero ul li{
+    padding: 30px;
+
+}
+
+.divGenero ul li a{
+    text-decoration: none;
+    color: white;
+}
