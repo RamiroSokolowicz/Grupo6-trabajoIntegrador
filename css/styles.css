@@ -194,3 +194,43 @@ padding: 100px;
     text-decoration: none;
     color: white;
 }
+
+.mainBusqueda{
+    min-height: 100vh;
+}
+
+.mainBusqueda h2{
+    color: grey;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.peliBusqueda{
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+}
+
+.peliBusqueda img{
+    height: 300px;
+    width: 300px;
+}
+
+.peliBusqueda p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.peliBusqueda a{
+    text-decoration: none;
+    color: white;
+}
