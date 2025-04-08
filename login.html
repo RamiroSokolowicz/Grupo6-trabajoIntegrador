@@ -28,8 +28,23 @@
         </nav>
     </header>
 
-    <main>
+    <main class="mainLogin">
+        <form action="home.html" method="get" class="formLogin">
+            <h2>Iniciar Sesión</h2>
+            <div>
+                <label for="email">EMAIL:</label>
+                <input type="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="password">CONTRASEÑA:</label>
+                <input type="password" name="password" required>
+            </div>
 
+            <button type="submit">ENTER</button>
+
+            <p><a href="registro.html">NO TENGO CUENTA</a></p>
+        </form>
     </main>
 
     <footer class="footer">

@@ -234,3 +234,44 @@ padding: 100px;
     text-decoration: none;
     color: white;
 }
+
+.mainLogin{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border: 5px solid grey;
+    padding: 50px;
+}
+
+.formLogin h2{
+    color: grey;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.formLogin div{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.formLogin div input{
+    background-color: grey;
+}
+
+.formLogin button{
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.formLogin p a{
+    color:grey;
+}
