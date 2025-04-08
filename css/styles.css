@@ -275,3 +275,46 @@ padding: 100px;
 .formLogin p a{
     color:grey;
 }
+
+.mainRegistro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formRegistro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border: 5px solid grey;
+    padding: 50px;
+}
+
+.formRegistro h2{
+    color: grey;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.formRegistro div{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.formRegistro div input{
+    background-color: grey;
+}
+
+.formRegistro button{
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.formRegistro p a{
+    color:grey;
+}
+
+
