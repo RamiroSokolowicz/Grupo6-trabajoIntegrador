@@ -196,7 +196,7 @@ padding: 100px;
 }
 
 .mainBusqueda{
-    min-height: 100vh;
+    height: 82vh;
 }
 
 .mainBusqueda h2{
@@ -236,7 +236,7 @@ padding: 100px;
 }
 
 .mainLogin{
-    height: 100vh;
+    height: 82vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +277,7 @@ padding: 100px;
 }
 
 .mainRegistro{
-    height: 100vh;
+    height: 82vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,7 +289,7 @@ padding: 100px;
     align-items: center;
     background-color: red;
     border: 5px solid grey;
-    padding: 50px;
+    padding: 40px;
 }
 
 .formRegistro h2{
@@ -317,4 +317,90 @@ padding: 100px;
     color:grey;
 }
 
+@media (max-width: 420px){
+    .cabecera{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cabecera nav{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 50px;
+        height: 50px;
+        padding-left: 0px;
+    }
+
+    .formCabecera input{
+        width: 100%;
+    }
+
+    .cabecera nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .cabecera nav ul li{
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .divFooter{
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .secciones{
+        padding: 25px;
+    }
+
+    .divs{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+   .seccionDetalles img{
+        width: 100%;
+        height: auto;
+    }
+
+    .divDetalles{
+        padding: 5px;
+    }
+         
+    .divDetalles p{
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .busqueda{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .mainBusqueda{
+        height: 100%;
+    }
+
+    .mainLogin{
+        height: 60vh;
+    }
+
+}
 
