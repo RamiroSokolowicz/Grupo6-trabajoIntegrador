@@ -264,7 +264,7 @@ padding: 100px;
 }
 
 .formLogin div input{
-    background-color: grey;
+    background-color: white;
 }
 
 .formLogin button{
@@ -273,7 +273,7 @@ padding: 100px;
 }
 
 .formLogin p a{
-    color:grey;
+    color:white;
 }
 
 .mainRegistro{
@@ -305,7 +305,7 @@ padding: 100px;
 }
 
 .formRegistro div input{
-    background-color: grey;
+    background-color: white;
 }
 
 .formRegistro button{
@@ -314,7 +314,7 @@ padding: 100px;
 }
 
 .formRegistro p a{
-    color:grey;
+    color:white;
 }
 
 @media (max-width: 420px){
