@@ -31,11 +31,24 @@ body{
     padding-right: none;
 }
 
+.formCabecera{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 0px;
+}
+
 .formCabecera input{
     border: none;
-    width: 200px;
+    width: 180px;
     padding-left: none;
-    padding-right: 50px;
+    padding-right: 0px;
+}
+
+.opciones{
+    display: flex;
+    align-items: center;
+    gap: 0px;
 }
 
 .formCabecera button{
@@ -46,7 +59,7 @@ body{
 nav ul{
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 40px;
     align-items: center;
 }
 

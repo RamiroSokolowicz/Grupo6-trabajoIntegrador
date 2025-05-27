@@ -13,8 +13,17 @@
         </div>
 
         <form action="busqueda.html" method="get" class="formCabecera">
-            <input type="text" name="busqueda" placeholder="Buscar Peli/Serie">
+            <input type="text" name="búsqueda" placeholder="Buscar Peli/Serie">
             <button type="submit">Buscar</button>
+
+            <div class="opciones">
+                <label for="pelicula">PELICULAS</label>
+                <input class="opcionInput" type="radio" name="peliOserie" value="pelicula" id="pelicula">
+
+                <label for="serie">SERIES</label>
+                <input class="opcionInput" type="radio" name="peliOserie" value="serie" id="serie">
+            </div>
+
         </form>
 
         <nav>
