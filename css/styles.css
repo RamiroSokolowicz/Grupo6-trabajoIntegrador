@@ -129,6 +129,26 @@ padding: 100px;
     justify-content: center;    
 }
 
+.manteca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 35px;
+
+}
+
+.manteca img{
+    width: 250px;
+    height: 300px;
+}
+
+.manteca h3{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .seccionDetalles{
     padding: 25px;
     display: flex;
