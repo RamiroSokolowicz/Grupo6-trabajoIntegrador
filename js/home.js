@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
             for (let i = 0; i < 5; i++) {
                 let item = data.results[i];
                 pochoclo += `
-                <div class="manteca">
+                <a href= "detallePeli.html?id=${item.id}" class="manteca">
                     <img src="https://image.tmdb.org/t/p/w500/${item.poster_path}">
                     <h2>${item.title}</h2>
                     <h3>Fecha: ${item.release_date}</h3>
-                </div>
+                </a>
                 `;
             }
             secciones[0].innerHTML = pochoclo;})
@@ -41,11 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
             for (let i = 0; i < 5; i++) {
                 let item = data.results[i];
                 chocolate += `
-                <div class="manteca">
+                <a href= "detalleSerie.html?id=${item.id}" class="manteca">
                     <img src="https://image.tmdb.org/t/p/w500/${item.poster_path}">
                     <h2>${item.name}</h2>
                     <h3>Fecha: ${item.first_air_date}</h3>
-                </div>
+                </a>
                 `;
             }
             secciones[1].innerHTML = chocolate;})
@@ -65,11 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
             for (let i = 0; i < 5; i++) {
                 let item = data.results[i];
                 azucar += `
-                <div class="manteca">
+                <a href= "detallePeli.html?id=${item.id}" class="manteca">
                     <img src="https://image.tmdb.org/t/p/w500/${item.poster_path}">
                     <h2>${item.title}</h2>
                     <h3>Fecha: ${item.release_date}</h3>
-                </div>
+                </a>
                 `;
             }
             secciones[2].innerHTML = azucar;})
