@@ -95,12 +95,17 @@ nav ul li a{
 
 .secciones{
 padding: 100px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
 
 .secciones h2{
     color:grey;
     padding-bottom: 5px;
     padding-top: 10px;
+    justify-content: left;
 }
 
 .divs{
@@ -117,6 +122,9 @@ padding: 100px;
 .divs a img{
     width: 250px;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .divs a p{
@@ -134,7 +142,6 @@ padding: 100px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-right: 35px;
 
 }
 
@@ -193,6 +200,7 @@ padding: 100px;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .seccionGenero{
