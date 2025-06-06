@@ -16,7 +16,17 @@
         <form action="busqueda.html" method="get" class="formCabecera">
             <input type="search" name="busqueda" placeholder="Buscar Peli/Serie">
             <button type="submit">Buscar</button>
+
+            <div class="opciones">
+                <label for="pelicula">PELICULAS</label>
+                <input class="opcionInput" type="radio" name="peliOserie" value="movie" id="pelicula">
+
+                <label for="serie">SERIES</label>
+                <input class="opcionInput" type="radio" name="peliOserie" value="tv" id="serie">
+            </div>
+
         </form>
+
 
         <nav>
             <ul>
@@ -30,7 +40,7 @@
     </header>
 
     <main class="mainBusqueda">
-        <h2>Resultados para: <strong>"CARS"</strong></h2>
+        <h2 class="tituloDeBusqueda"> <strong></strong></h2>
         <section class="busqueda">
             <div class="peliBusqueda">
                 <a href="./detallePeli.html">
@@ -56,5 +66,7 @@
             <a href="mailto:Cineyseries@gmail.com.ar">Cineyseries@gmail.com.ar</a>
         </div>
     </footer>
+    
+    <script src="./js/busqueda.js"></script>
 </body>
 </html>

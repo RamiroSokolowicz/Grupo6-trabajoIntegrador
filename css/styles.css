@@ -8,7 +8,6 @@ body{
     background-color: black;
     font-family: Arial, sans-serif;
     color: black;
-    height: 100%;
     flex-direction: column;
 }
 
@@ -237,7 +236,7 @@ padding: 100px;
 }
 
 .mainBusqueda{
-    height: 82vh;
+    min-height: 82vh;
 }
 
 .mainBusqueda h2{
@@ -246,8 +245,15 @@ padding: 100px;
     padding-top: 30px;
 }
 
+.seccionesDeLasPeliculasRey{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
 .busqueda{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -258,6 +264,7 @@ padding: 100px;
     padding: 20px;
     margin: 20px;
     background-color: red;
+    box-sizing: border-box;
 }
 
 .peliBusqueda img{
