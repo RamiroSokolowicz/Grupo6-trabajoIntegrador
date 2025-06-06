@@ -1,5 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", function () {
     const URLpelis = "https://api.themoviedb.org/3/movie/popular?api_key=2621253a21d069b5d3996a4a7b9b8692";
     const URLseries = "https://api.themoviedb.org/3/tv/popular?api_key=2621253a21d069b5d3996a4a7b9b8692";
     const URLpelisvisto = "https://api.themoviedb.org/3/movie/top_rated?api_key=2621253a21d069b5d3996a4a7b9b8692";
@@ -78,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("Error al cargar las peliculas", error);
         });
 
-    });
+    ;
 
 
 

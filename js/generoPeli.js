@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
     const URLgenero = "https://api.themoviedb.org/3/genre/movie/list?api_key=2621253a21d069b5d3996a4a7b9b8692";
     const loQueAgarroDelHtml = document.querySelector(".ulGenero");
 
@@ -22,4 +21,4 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(function (error) {
             console.log("Error al cargar los géneros", error);
         });
-    });
+    
