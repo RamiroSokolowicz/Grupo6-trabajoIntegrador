@@ -16,7 +16,7 @@ fetch(URLseries)
         for (let i = 0; i < data.results.length; i++) {
             donElectron += `
             <div class="divSeries">
-                <a href="detalleSerie.html?id=${data.results[i].id}">
+                <a href="detalleGeneroSerie.html?id=${data.results[i].id}">
                     <img class="fotoPeli" src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" alt="${data.results[i].name}">
                     <h2 class="titulon">${data.results[i].name}</h2>
                 </a>

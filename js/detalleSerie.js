@@ -18,11 +18,12 @@ fetch(URLpelis)
 
         let generos = "GÉNEROS: ";
         for (let i = 0; i < data.genres.length; i++) {
+            generos += `<a href="detalleGeneroSerie.html?id=${data.genres[i].id}&nombre=${data.genres[i].name}">` 
+            document.querySelector(".genero").innerHTML = generos;
             generos += data.genres[i].name;
-            if (i < data.genres.length - 1) {
-                generos += ", ";
-            }
         }
+
+
         document.querySelector(".genero").innerHTML = generos;
 //Para no olvidarme después, me fije en la info de La Ley y El Orden//
 ;})

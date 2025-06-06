@@ -10,7 +10,7 @@
             for (let i = 0; i < data.genres.length; i++) {
                 genero += `
                 <li>
-                    <a href="detalleGenero.html?id=${data.genres[i].id}">
+                    <a href="detalleGeneroSerie.html?id=${data.genres[i].id}">
                         ${data.genres[i].name}
                     </a>
                 </li>
